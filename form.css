@@ -1,0 +1,26 @@
+ *
+{
+    padding: 0;
+    margin: 0;
+}
+form{
+    text-align:  center;
+    font-style:normal;
+    font-size: medium;
+}
+
+input[type "text"],
+input[type "password"],
+input[type "email"]
+{
+    height: 30px;
+    width: 300px;
+}
+label{
+    display: block;
+}
+input ::placeholder{
+    color: olivedrab;
+
+}
+
